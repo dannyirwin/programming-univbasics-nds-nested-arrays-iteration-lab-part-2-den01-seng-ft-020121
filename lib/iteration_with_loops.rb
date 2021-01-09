@@ -11,11 +11,11 @@ while day_index < src.length do
  while hr_index < src[day_index].length do
    p src[day_index][hr_index]
       #min_temp = src[day_index][hr_index] if min_temp > src[day_index][hr_index]
+      hr_index += 1
       end 
     min_temp_arr << min_temp
-    hr_index += 1
-    end 
     day_index += 1
+    end 
 end
 
 arr =   [[19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
