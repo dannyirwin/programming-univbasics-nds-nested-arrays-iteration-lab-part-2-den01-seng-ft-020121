@@ -9,8 +9,7 @@ while day_index < src.length do
   hr_index = 0
   
  while hr_index < src[day_index].length do
-   p src[day_index][hr_index]
-      #min_temp = src[day_index][hr_index] if min_temp > src[day_index][hr_index]
+      min_temp = src[day_index][hr_index] if min_temp > src[day_index][hr_index]
       hr_index += 1
       end 
     min_temp_arr << min_temp
