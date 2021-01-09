@@ -15,6 +15,7 @@ while day_index < src.length do
     min_temp_arr << min_temp
     day_index += 1
     end 
+    min_temp_arr
 end
 
 arr =   [[19, 21, 24, 26, 30, 34, 37, 39, 40, 45, 48, 50, 55, 60, 63, 59, 49, 45, 40, 39, 34, 32, 25, 18],
